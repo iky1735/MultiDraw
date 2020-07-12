@@ -1,18 +1,4 @@
-﻿//******************************************************************************************************************************************************
-//Program:      Socket_MultiDraw_EvanYoon
-//Author:       Jongwan (Evan) Yoon
-//Description:  Attempts to connect to the server of the specified ip address. If connection was successful, display on the label that the client has
-//              connected, and allows the user to draw on the shown canvas. The user is able to draw by holding down left click, right click, or the
-//              middle click. The thickness of the line is able to be changed via scrolling. Scrolling up will thicken the line, while scrolling down
-//              will make it thinner. Colour can be specified by left clicking on the 'colour' label, which will open up a colour dialog for the user
-//              to choose from. If the user right clicks the 'colour' label, another dialog with a track bar will show up. The track bar on the dialog
-//              allows the user to choose the opacity of the line. While connected to the server, the user can draw on the canvas, as well as receive
-//              the lines that others are also drawing. 
-//Date:         April 24, 2020
-//Class:        CMPE2800
-//Instructor:   Shane Kelemen
-//******************************************************************************************************************************************************
-using System;
+﻿using System;
 using System.Drawing;
 using System.Windows.Forms;
 using System.Net.Sockets;
